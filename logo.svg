@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="business-analysis-skills logo">
+  <rect width="256" height="256" rx="40" fill="#0f766e"/>
+  <rect x="44" y="44" width="168" height="168" rx="24" fill="#134e4a"/>
+  <path d="M78 160h28v-60H78zm36 0h28V84h-28zm36 0h28v-42h-28z" fill="#99f6e4"/>
+  <circle cx="92" cy="86" r="8" fill="#f0fdfa"/>
+  <circle cx="128" cy="70" r="8" fill="#f0fdfa"/>
+  <circle cx="164" cy="94" r="8" fill="#f0fdfa"/>
+</svg>

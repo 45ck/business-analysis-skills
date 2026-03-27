@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="business-analysis-skills banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <circle cx="1020" cy="80" r="160" fill="#14b8a6" opacity="0.14"/>
+  <circle cx="140" cy="300" r="190" fill="#99f6e4" opacity="0.12"/>
+  <text x="70" y="140" fill="#f0fdfa" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">business-analysis-skills</text>
+  <text x="70" y="200" fill="#ccfbf1" font-family="Segoe UI, Arial, sans-serif" font-size="26">Atomic techniques, workflows, and quality reviews for structured BA work.</text>
+  <g transform="translate(820 120)">
+    <rect x="0" y="52" width="58" height="88" rx="8" fill="#99f6e4"/>
+    <rect x="78" y="16" width="58" height="124" rx="8" fill="#5eead4"/>
+    <rect x="156" y="74" width="58" height="66" rx="8" fill="#2dd4bf"/>
+  </g>
+</svg>
