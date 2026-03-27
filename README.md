@@ -14,20 +14,61 @@
   <img src="https://img.shields.io/badge/tracks-3-115e59" alt="3 tracks" />
 </p>
 
-A platform-neutral business analysis skill pack for AI assistants. It bundles atomic techniques, orchestrated workflows, and quality controls into one reusable repo.
+A platform-neutral business analysis skill pack for AI assistants. It combines atomic techniques, end-to-end workflows, and quality review passes in one reusable repo.
 
-## Included skill groups
+## Included skills
 
-- `atomic/` for single-technique skills such as SWOT, PESTLE, RACI, use cases, workshops, interviews, and process specs
-- `workflows/` for end-to-end BA sequences such as problem framing, strategy analysis, stakeholder analysis, elicitation, process improvement, SSM, and packaging
-- `quality/` for evidence gaps, assumptions, consistency, bias checks, and requirements quality
+### Atomic techniques
+
+- `pestle-analysis`
+- `swot-prioritisation`
+- `porters-five-forces`
+- `value-proposition-analysis`
+- `stakeholder-register`
+- `power-interest-grid`
+- `raci-matrix`
+- `interview-design`
+- `questionnaire-design`
+- `workshop-design`
+- `observation-study-plan`
+- `prototype-elicitation`
+- `use-case-specification`
+- `process-model-spec`
+- `moscow-prioritisation`
+- `see-i-clarifier`
+- `catwoe-root-definition`
+
+### Workflows
+
+- `business-problem-framing`
+- `strategy-analysis`
+- `stakeholder-analysis`
+- `requirements-elicitation`
+- `process-modelling-and-improvement`
+- `ssm-analysis`
+- `requirements-packager`
+
+### Quality checks
+
+- `critical-thinking-bias-check`
+- `assumptions-constraints-log`
+- `evidence-gap-review`
+- `deliverable-consistency-check`
+- `requirements-quality-check`
+
+## Features
+
+- Preserves the original `atomic/`, `workflows/`, and `quality/` source grouping
+- Mirrors packaged skills into both `.claude/skills/` and `.agents/skills/`
+- Supports broad BA work from discovery through structured deliverables
+- Keeps quality checks separate so deliverables can be reviewed before handoff
 
 ## Install
 
 ### Option A: Install globally
 
 ```bash
-git clone https://github.com/your-name/business-analysis-skills.git
+git clone https://github.com/45ck/business-analysis-skills.git
 cd business-analysis-skills
 bash install.sh
 ```
@@ -52,9 +93,7 @@ bash uninstall.sh
 
 ## Usage
 
-Use the workflow skills first when the task is broad, then drop to atomic skills for specific techniques, and finish with a quality pass.
-
-Example prompts:
+Use workflow skills first for broad problem spaces, atomic skills for specific BA techniques, and quality skills before finalizing a deliverable.
 
 ```text
 /business-problem-framing claims triage process
@@ -87,11 +126,11 @@ uninstall.sh                         global uninstaller
 LICENSE                              MIT
 ```
 
-## Notes
+## Related skill packs
 
-- The original category folders are preserved so the repo still reflects the upstream source organization.
-- The packaged `.claude` and `.agents` folders make the repo easier to install and publish.
-- This repo is intentionally platform-neutral in naming and documentation.
+- [marketing-product-skills](https://github.com/45ck/marketing-product-skills) - Product strategy, growth, positioning, launch, SEO, and pricing skills
+- [hci-review-skill](https://github.com/45ck/hci-review-skill) - Structured HCI and UX review skills for prototypes and product interfaces
+- [fagan-inspection-skill](https://github.com/45ck/fagan-inspection-skill) - Formal inspection and defect-review skills for code changes
 
 ## License
 
