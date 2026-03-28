@@ -167,9 +167,9 @@ LICENSE                              MIT
 
 ## Related workflow agents
 
-- [requirements-analyst](https://github.com/45ck/workflow-agents) - Turn ambiguous asks into scoped, testable requirements
-- [requirements-analyst-beads](https://github.com/45ck/workflow-agents) - Track requirements gaps, assumptions, and follow-up items
-- [system-modeler](https://github.com/45ck/workflow-agents) - Translate requirements into structured analysis models
+- [requirements-analyst](https://github.com/45ck/skill-harness) - Turn ambiguous asks into scoped, testable requirements
+- [requirements-analyst-beads](https://github.com/45ck/skill-harness) - Track requirements gaps, assumptions, and follow-up items
+- [system-modeler](https://github.com/45ck/skill-harness) - Translate requirements into structured analysis models
 
 ## Related skill packs
 
