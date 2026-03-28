@@ -19,6 +19,30 @@ SKILLS=(
   moscow-prioritisation
   see-i-clarifier
   catwoe-root-definition
+  acceptance-criteria-writer
+  ambiguity-hunter
+  assumption-extractor
+  constraint-detector
+  definition-of-done-drafter
+  edge-case-elicitor
+  functional-vs-nonfunctional-splitter
+  problem-statement-refiner
+  proto-requirements-normalizer
+  requirements-conflict-checker
+  requirements-gap-auditor
+  requirements-interrogator
+  requirements-prioritizer
+  requirements-traceability-starter
+  raci-rasci-builder
+  stakeholder-communication-planner
+  probe-question-generator
+  pyramid-funnel-diamond-interviewer
+  questionnaire-pilot-checker
+  breakout-structure-designer
+  as-is-process-investigator
+  to-be-process-designer
+  business-rule-extractor
+  benefit-hypothesis-writer
   business-problem-framing
   strategy-analysis
   stakeholder-analysis

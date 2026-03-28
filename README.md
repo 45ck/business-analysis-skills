@@ -10,11 +10,11 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
-  <img src="https://img.shields.io/badge/skills-29-0f766e" alt="29 skills" />
-  <img src="https://img.shields.io/badge/tracks-3-115e59" alt="3 tracks" />
+  <img src="https://img.shields.io/badge/skills-53-0f766e" alt="53 skills" />
+  <img src="https://img.shields.io/badge/tracks-5-115e59" alt="5 tracks" />
 </p>
 
-A platform-neutral business analysis skill pack for AI assistants. It combines atomic techniques, end-to-end workflows, and quality review passes in one reusable repo.
+A platform-neutral business analysis skill pack for AI assistants. It combines atomic techniques, requirements discovery, elicitation support, end-to-end workflows, and quality review passes in one reusable repo.
 
 ## Included skills
 
@@ -37,6 +37,36 @@ A platform-neutral business analysis skill pack for AI assistants. It combines a
 - `moscow-prioritisation`
 - `see-i-clarifier`
 - `catwoe-root-definition`
+
+### Requirements and specification
+
+- `acceptance-criteria-writer`
+- `ambiguity-hunter`
+- `assumption-extractor`
+- `constraint-detector`
+- `definition-of-done-drafter`
+- `edge-case-elicitor`
+- `functional-vs-nonfunctional-splitter`
+- `problem-statement-refiner`
+- `proto-requirements-normalizer`
+- `requirements-conflict-checker`
+- `requirements-gap-auditor`
+- `requirements-interrogator`
+- `requirements-prioritizer`
+- `requirements-traceability-starter`
+
+### Elicitation and process extensions
+
+- `raci-rasci-builder`
+- `stakeholder-communication-planner`
+- `probe-question-generator`
+- `pyramid-funnel-diamond-interviewer`
+- `questionnaire-pilot-checker`
+- `breakout-structure-designer`
+- `as-is-process-investigator`
+- `to-be-process-designer`
+- `business-rule-extractor`
+- `benefit-hypothesis-writer`
 
 ### Workflows
 
@@ -61,6 +91,7 @@ A platform-neutral business analysis skill pack for AI assistants. It combines a
 - Preserves the original `atomic/`, `workflows/`, and `quality/` source grouping
 - Mirrors packaged skills into both `.claude/skills/` and `.agents/skills/`
 - Supports broad BA work from discovery through structured deliverables
+- Adds requirements discovery, traceability, and elicitation-support skills missing from the original repo
 - Keeps quality checks separate so deliverables can be reviewed before handoff
 
 ## Install
@@ -105,8 +136,15 @@ Use workflow skills first for broad problem spaces, atomic skills for specific B
 /swot-prioritisation launch of a student support portal
 /porters-five-forces local food delivery platform
 /raci-matrix identity migration project
+/raci-rasci-builder delivery team responsibilities
 /use-case-specification submit and approve leave request
 /process-model-spec incident escalation workflow
+/requirements-interrogator stakeholder notes from workshop
+/acceptance-criteria-writer password reset requirements
+/requirements-traceability-starter MVP scope
+/as-is-process-investigator current procurement workflow
+/to-be-process-designer improved procurement workflow
+/business-rule-extractor policy document and ops notes
 
 /evidence-gap-review proposed CRM migration
 /requirements-quality-check draft booking requirements
@@ -121,6 +159,7 @@ workflows/                           original source grouping
 quality/                             original source grouping
 .claude/skills/<skill>/SKILL.md      packaged skill format
 .agents/skills/<skill>/SKILL.md      mirrored packaged skill format
+docs/ba/templates/                   reusable BA templates
 install.sh                           global installer
 uninstall.sh                         global uninstaller
 LICENSE                              MIT
